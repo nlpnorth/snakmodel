@@ -1,0 +1,23 @@
+To scrape tweets, first you go to https://archive.org/details/twitterstream scroll all the way down, and download the HTML into webpage.htm
+
+# get all month-pages
+cat webpage.htm  | grep "<div class=\"item-ia" | cut -d "\"" -f 4 | sed "s;^;wget https://archive.org/details/;g" > list
+# extract links to all files
+grep "/download/.*zip" archiveteam-json-twitterstream | cut -d "\"" -f 4 | sed "s;^;wget https://archive.org;g" > getAll.sh
+grep "stealth.*/download/.*\.tar" archiveteam-* | cut -d "\"" -f 4 | sed "s;^;wget https://archive.org;g" >> getAll.sh
+grep download-pill cat archiveteam-twitter-stream-2020-* | grep -v torrent | cut -d "\"" -f 4 | sed "s;^;wget https://archive.org;g"  >> getAll.sh
+
+Now all you have to do is ./getAll.sh
+
+This command will take a couple of months, so parallel -j 5 < getAll.sh might be better. However, I never used more than 5 because they might shut you down if you download too many things parallel.
+
+Now you will have all the .zip and .tar files thay you have to extract. Be aware that they are in a variety of formats/path structures. (I did this manually)
+
+for language identification I used fastText, see data_scripts/1.totext-twitter.py. It can just be ran like this to extract text and classify all data from 1 year:
+
+python3 2txt.py 2020
+
+In the txt folder it created new files with 5 columns:
+langId-twitter langId-fasttext confidence-fasttext username text
+
+We used the data from 2011-2020

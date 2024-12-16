@@ -1,0 +1,90 @@
+====================================
+AngryTweets
+prompt: What is the task that is tackled in the AngryTweets benchmark?
+output:   The AngryTweets benchmark is a collection of tweets that have been annotated with sentiment labels, indicating whether the tweet express
+prompt: What is the task that is tackled in the AngryTweets dataset?
+output:   The AngryTweets dataset is a collection of tweets that have been annotated with emotions. The task that is tackled
+prompt: What are the first 2 sentences in the AngryTweets dataset?
+output:   I am trying to use the AngryTweets dataset for sentiment analysis, but I am having trouble understanding how to use it. Can
+
+Next sent: BILLEDSERIE: Hjerteforeningens lokalkomite mangler hjælpere for at fortsætte den traditionelle nytår
+Pred. next sent: 35-årig mand erkender drab [LINK]	neutral  A 35-year-old man has confessed to the murder of a 21-yea
+Next words: ender drab [LINK]	neutral 
+Pred next words: 35-årig mand erkender, han har
+
+
+====================================
+DANSK
+prompt: What is the task that is tackled in the DANSK benchmark?
+output:   The DANSK benchmark is a collection of tasks that are used to evaluate the performance of natural language processing (NLP) models in the
+prompt: What is the task that is tackled in the DANSK dataset?
+output:   The DANSK dataset is a collection of 3D human pose annotations for various everyday activities. The dataset contains 3D joint
+prompt: What are the first 2 sentences in the DANSK dataset?
+output:   The DANSK dataset is a collection of Danish text data, consisting of 100,000 sentences from various sources
+
+Next sent: 27 meters frit fald fra Operaens tag –	[{'end': 9, 'label': 'QUANTITY', 'start': 0}, {'end': 32, 'la
+Pred. next sent: Henrik Dahl: Feminister er rene og skære nasserøve 13	[{'end': 11, 'label': 'PERSON', 'start': 0}, {
+Next words: 1}, {'end': 23, 'id': 3, 'star
+Pred next words: Henrik Dahl: Feminister er ren
+
+
+====================================
+Danish Citizenship tests
+prompt: What is the task that is tackled in the Danish Citizenship tests benchmark?
+output:   The Danish Citizenship tests benchmark is designed to assess an individual's knowledge and understanding of Danish society, culture, and
+prompt: What is the task that is tackled in the Danish Citizenship tests dataset?
+output:   The Danish Citizenship tests dataset contains questions and answers from the Danish citizenship test, which is a requirement for obtaining
+prompt: What are the first 2 sentences in the Danish Citizenship tests dataset?
+output:   I'm trying to understand the content of the dataset, but I can't find the first 2 sentences anywhere. Can you please
+
+Next sent: Hvor gammel skal man ifølge dansk lov være for at blive gift uden nogen særlig tilladelse?	Mindst 14
+Pred. next sent: Må en dommer bære religiøse symboler i en retssal i Danmark?	Ja	Nej	None	B	indfødsretsprøven	2020	su
+Next words: a	Nej	None	B	indfødsretsprøven
+Pred next words: Må en dommer bære religiøse sy
+
+
+====================================
+Danish HellaSwag
+prompt: What is the task that is tackled in the Danish HellaSwag benchmark?
+output:   The Danish HellaSwag benchmark is a collection of tasks that are designed to evaluate the performance of natural language processing (NLP)
+prompt: What is the task that is tackled in the Danish HellaSwag dataset?
+output:   The Danish HellaSwag dataset is a collection of text data that is used for training and evaluating language models. The dataset includes
+prompt: What are the first 2 sentences in the Danish HellaSwag dataset?
+output:   I'm looking for the first 2 sentences in the Danish HellaSwag dataset. Can someone provide them to me? 
+
+Next sent: hellaswag/validation/3615	[header] Sådan stopper du dit barns tænderskæren [title] Forstå, at stress
+Pred. next sent: hellaswag/validation/7787	[header] Sådan opdaterer du din modegarderobe med bånd [title] Kig efter b
+Next words: af dit nuværende look.', '[ste
+Pred next words: hellaswag/validation/7787	[hea
+
+
+====================================
+Nordjylland news summarization
+prompt: What is the task that is tackled in the Nordjylland news summarization benchmark?
+output:   The Nordjylland news summarization benchmark is a dataset used for training and evaluating text summarization models. The task tackled in
+prompt: What is the task that is tackled in the Nordjylland news summarization dataset?
+output:   The Nordjylland news summarization dataset is a collection of news articles and their corresponding summaries, which are used to train and evaluate
+prompt: What are the first 2 sentences in the Nordjylland news summarization dataset?
+output:   The Nordjylland news summarization dataset contains 1000 news articles from the Nordjylland region of Denmark,
+
+Next sent: Regeringen vil gøre det muligt at udskyde varme- eller elregningen, hvis den overstiger prisen fra s
+Pred. next sent: Hvis du tager en tur på stranden, så pas på hvor du træder. På stranden mellem Klitmøller og Vorupør
+Next words: det med kviksand er på strande
+Pred next words: Hvis du tager en tur på strand
+
+
+====================================
+ScaLA
+prompt: What is the task that is tackled in the ScaLA benchmark?
+output:   The ScaLA benchmark is a collection of tasks that are designed to evaluate the performance of natural language processing (NLP) systems in a
+prompt: What is the task that is tackled in the ScaLA dataset?
+output:   The ScaLA dataset is a collection of medical images that are used to train and evaluate machine learning models for the task of segmenting brain
+prompt: What are the first 2 sentences in the ScaLA dataset?
+output:   The ScaLA dataset is a collection of text data from various sources, including news articles, scientific papers, and social media posts. The
+
+Next sent: Svampene findes i enhver dansk skov, naturligvis er nogle steder bedre end andre.	delete	incorrect 
+Pred. next sent: En lang række af disse spørgsmål kender vi endnu ikke noget entydigt svar på.	None	correct  En lang 
+Next words: vi endnu ikke noget entydigt s
+Pred next words: En lang række af disse spørgsm
+
+

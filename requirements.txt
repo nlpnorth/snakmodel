@@ -1,0 +1,10 @@
+scandeval
+torch
+wheel
+flash-attn
+outlines
+transformers
+scipy
+peft
+trl
+flask
