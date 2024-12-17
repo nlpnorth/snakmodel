@@ -43,6 +43,9 @@ def combine_all_datasets(dataset_names):
     for dp in dataset_paths:
         if os.path.exists(dp):
             ds = load_from_disk(dp)
+            if isinstance(ds, DatasetDict):
+                ds = ds['train']
+            
             datasets_list.append(ds)
 
     # Concatenate all datasets
@@ -53,6 +56,7 @@ def combine_all_datasets(dataset_names):
         print("All datasets combined and saved to hf_datasets_format/all/train/")
     else:
         print("No datasets found to combine.")
+
 
 def main(args):
     # paths = ["bookshop", "twitter", "dawiki", "cc100", "culturax", "opensubtitle", "reddit", "gigaword", "all"]
