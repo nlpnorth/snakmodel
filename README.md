@@ -18,6 +18,7 @@
 * ⚙️ Model Training and Analysis Code:
   * **Research Paper**: To appear in the Proceedings of NoDaLiDa/Baltic-HLT 2025 (pre-print coming soon).
   * **Codebase**: this repository.
+  * **Data**: Find our data [here](https://huggingface.co/datasets/NLPnorth/snakmodel-pretraining-data-v0.1) on HF🤗.
 * 🇩🇰 Cultural Awareness Evaluation:
   * **Research Paper**: coming in Q1 2025 (pre-print coming soon).
   * **Codebase**: coming soon to this repository.
