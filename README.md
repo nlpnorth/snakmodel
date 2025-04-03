@@ -16,12 +16,12 @@
   * **[SnakModel-7B (base)](https://huggingface.co/NLPnorth/snakmodel-7b-base)**: The base LM trained on Danish text completion + its intermediate checkpoints.
   * **[SnakModel-7B (instruct)](https://huggingface.co/NLPnorth/snakmodel-7b-instruct)**: An instruction-tuned variant of the base model + its intermediate checkpoints.
 * ⚙️ Model Training and Analysis Code:
-  * **Research Paper**: To appear in the Proceedings of NoDaLiDa/Baltic-HLT 2025 (pre-print coming soon).
+  * **[Research Paper](https://openreview.net/forum?id=YxzfgQGpRQ)**: "SnakModel: Lessons Learned from Training an Open Danish Large Language Model" (Zhang et al., 2025), presented at NoDaLiDa/Baltic-HLT 2025.
   * **Codebase**: this repository.
-  * **Data**: Find our data [here](https://huggingface.co/datasets/NLPnorth/snakmodel-pretraining-data-v0.1) on HF🤗.
-* 🇩🇰 Cultural Awareness Evaluation:
-  * **Research Paper**: coming in Q1 2025 (pre-print coming soon).
-  * **Codebase**: coming soon to this repository.
+  * **Training Data**: Find our data [here](https://huggingface.co/datasets/NLPnorth/snakmodel-pretraining-data-v0.1) on HF🤗.
+* 🇩🇰 DaKultur: A Danish Cultural Awareness Evaluation:
+  * **[Research Paper](https://mxij.me/x/dakultur-paper)**: "DaKultur: Evaluating the Cultural Awareness of Language Models for Danish with Native Speakers" (Müller-Eberstein et al., 2025), presented at NB-REAL (NoDaLiDa 2025) and C3NLP (NAACL 2025).
+  * **Dataset**: Find our cultural evalaution dataset [here](https://huggingface.co/datasets/NLPnorth/dakultur) on HF🤗.
   * **Web-based LLM Evaluation Interface**: coming soon.
 
 
